@@ -1,0 +1,17 @@
+# 交易明细查询模板
+intent: transaction_query
+intent_name: 交易明细查询
+
+system_prompt_additions: |
+  用户账户信息：{account_info}
+  请仅提供交易明细查询相关信息。
+
+template: |
+  {user_input}
+
+output_requirements: |
+  请仅回答与交易明细查询相关的内容。
+  如果用户指定了时间范围，请按该范围筛选。
+  如果涉及具体金额或交易对象，请准确列出。
+  注意保护用户隐私，不要输出完整的对方卡号。
+  回答应清晰列出交易时间、金额、类型和对方信息。

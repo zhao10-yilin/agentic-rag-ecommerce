@@ -1,0 +1,10 @@
+# 企业级 AI 数据清洗与 ETL 流水线依赖
+# 生成日期: 2026-04-30
+
+trafilatura
+requests
+datasketch
+presidio-analyzer
+langchain-text-splitters
+pandas
+openai
